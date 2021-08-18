@@ -1,0 +1,15 @@
+.home{
+    margin: 20px;
+}
+.poketcontainer{
+    border: 2px solid black;
+    height: 500px;
+    padding: 10px;
+}
+.addButton{
+    margin-left: 50%;
+
+}
+.ant-modal-wrap-rtl .ant-modal-footer {
+    visibility: hidden;
+}

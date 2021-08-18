@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@import '~antd/dist/antd.css';
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+h1.header {
+  background-color:blueviolet;
+  background-image:url("./images/paykid.jpeg");
+  background-repeat:no-repeat;
+  
+  background-position: center;
+  height: 200px;
+  color: black;
+  text-align: center;
+  
+  padding-top: 50px;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-form-rtl .ant-form-item-label {
+  text-align: right;
+}
+.userpage{
+  margin: 10px;
+  direction: rtl;
+}
+.userdetails{
+  text-align: center;
+}
+.userpage h4{
+  text-align: center;
+}
+.incomeform{
+  float: left;
+  width: 47%;
+  border:1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
